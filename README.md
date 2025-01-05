@@ -1,2 +1,2 @@
 # AWS-Projects
-Welcome to my collection of AWS-related projects! This repository showcases various AWS implementations and solutions that I've built to demonstrate different features and capabilities of Amazon Web Services.
+Welcome to my AWS projects repository! This collection showcases various AWS-based implementations and solutions that highlight different features and capabilities of Amazon Web Services. Below, you'll find links to individual projects where I demonstrate my skills in architecting, deploying, and managing cloud environments using AWS.
