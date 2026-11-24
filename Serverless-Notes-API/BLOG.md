@@ -5,9 +5,9 @@ A question I hear a lot from people getting started with AWS is: *"What's the si
 
 My answer is always the same: **a small REST API**. It touches the three services you'll use in almost every serverless project: **AWS Lambda** for compute, **Amazon API Gateway** for HTTP, and **Amazon DynamoDB** for storage. And it costs next to nothing to run.
 
-In this post we'll build a **Notes API** from scratch with the AWS CLI, test it with `curl`, look at it in the AWS Console, and then tear it all down so it doesn't cost you a cent.
+In this post I'm building a **Notes API** from scratch with the AWS CLI, testing it with `curl`, checking it in the AWS Console, and then tearing it all down so it doesn't cost a cent.
 
-## What we're building
+## What I'm building
 
 ```
 Client (curl / browser)
@@ -39,7 +39,7 @@ export ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
 
 ## Step 1: Create the DynamoDB table
 
-We only need a partition key (`id`). On-demand billing means no capacity planning: you pay per request, and a demo like this stays well inside the free tier.
+I only need a partition key (`id`). On-demand billing means no capacity planning: you pay per request, and a demo like this stays well inside the free tier.
 
 ```bash
 aws dynamodb create-table \
@@ -77,7 +77,7 @@ aws iam put-role-policy --role-name $NAME-role --policy-name dynamodb-access \
 
 ## Step 3: Write the Lambda function
 
-One handler routes on the HTTP method and path parameters. API Gateway's **payload format 2.0** gives us `requestContext.http.method` and `pathParameters` directly.
+One handler routes on the HTTP method and path parameters. API Gateway's **payload format 2.0** gives me `requestContext.http.method` and `pathParameters` directly.
 
 `app.py`:
 
