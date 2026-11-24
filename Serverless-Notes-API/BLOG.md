@@ -235,5 +235,3 @@ aws logs delete-log-group --log-group-name /aws/lambda/$NAME --region $REGION
 - Replace `Scan` with a **Query** on a GSI once your data grows. Scans read the whole table.
 - Protect the API with a **JWT authorizer** (Amazon Cognito) on the HTTP API.
 - Rebuild the whole stack as **Infrastructure as Code** with AWS SAM or the AWS CDK.
-
-If you build this, let me know in the comments what you'd add next. 🚀
