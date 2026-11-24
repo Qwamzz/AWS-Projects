@@ -5,3 +5,5 @@ Welcome to my AWS projects repository! This collection showcases various AWS-bas
 Build-a-Chatbot-with-Amazon-Lex - https://github.com/Qwamzz/Build-a-Chatbot-with-Amazon-Lex
 
 Serverless-Notes-API (Lambda + API Gateway + DynamoDB) - [Serverless-Notes-API](./Serverless-Notes-API)
+
+Static-Website-S3-CloudFront-OAC (S3 + CloudFront + Origin Access Control) - [Static-Website-S3-CloudFront-OAC](./Static-Website-S3-CloudFront-OAC)
