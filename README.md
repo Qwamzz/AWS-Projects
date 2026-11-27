@@ -9,3 +9,5 @@ Serverless-Notes-API (Lambda + API Gateway + DynamoDB) - [Serverless-Notes-API](
 Static-Website-S3-CloudFront-OAC (S3 + CloudFront + Origin Access Control) - [Static-Website-S3-CloudFront-OAC](./Static-Website-S3-CloudFront-OAC)
 
 Event-Driven-Pipeline-S3-SQS-Lambda (S3 + SQS + Lambda + DLQ) - [Event-Driven-Pipeline-S3-SQS-Lambda](./Event-Driven-Pipeline-S3-SQS-Lambda)
+
+Containerized-App-ECS-Fargate-ALB (ECR + ECS Fargate + ALB) - [Containerized-App-ECS-Fargate-ALB](./Containerized-App-ECS-Fargate-ALB)
