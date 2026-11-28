@@ -298,5 +298,3 @@ Deleting the Glue database removes the table *definitions* only. The S3 data is 
 - **Govern access:** use **AWS Lake Formation** for column- and row-level permissions on the catalog tables.
 - **Try Apache Iceberg tables** in Athena when you need updates, deletes and time travel on the lake.
 - **Visualise it:** point **Amazon QuickSight** at the Athena tables for dashboards.
-
-The full code, including the data generator, SQL files and deploy/cleanup scripts, is on GitHub: [Qwamzz/AWS-Projects](https://github.com/Qwamzz/AWS-Projects/tree/main/Serverless-Data-Lake-S3-Glue-Athena).
