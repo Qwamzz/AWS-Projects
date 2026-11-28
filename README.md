@@ -11,3 +11,5 @@ Static-Website-S3-CloudFront-OAC (S3 + CloudFront + Origin Access Control) - [St
 Event-Driven-Pipeline-S3-SQS-Lambda (S3 + SQS + Lambda + DLQ) - [Event-Driven-Pipeline-S3-SQS-Lambda](./Event-Driven-Pipeline-S3-SQS-Lambda)
 
 Containerized-App-ECS-Fargate-ALB (ECR + ECS Fargate + ALB) - [Containerized-App-ECS-Fargate-ALB](./Containerized-App-ECS-Fargate-ALB)
+
+Serverless-Data-Lake-S3-Glue-Athena (S3 + Glue Crawler + Athena + Parquet) - [Serverless-Data-Lake-S3-Glue-Athena](./Serverless-Data-Lake-S3-Glue-Athena)
