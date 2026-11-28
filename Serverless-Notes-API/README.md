@@ -61,4 +61,4 @@ curl -s $API/notes
 
 ## Blog post
 
-A full step-by-step walkthrough of this project is in [BLOG.md](BLOG.md).
+A full walkthrough of this project is in [BLOG.md](BLOG.md).

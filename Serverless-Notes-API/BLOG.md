@@ -1,4 +1,4 @@
-# Build a Serverless Notes API on AWS with Lambda, API Gateway and DynamoDB (Step by Step)
+# Build a Serverless Notes API on AWS with Lambda, API Gateway and DynamoDB
 
 
 A question I hear a lot from people getting started with AWS is: *"What's the simplest real-world thing I can build to understand serverless?"*

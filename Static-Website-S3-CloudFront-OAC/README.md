@@ -59,4 +59,4 @@ aws cloudfront create-invalidation --distribution-id $DIST_ID --paths "/index.ht
 
 ## Blog post
 
-A full step-by-step walkthrough is in [BLOG.md](BLOG.md).
+A full walkthrough is in [BLOG.md](BLOG.md).

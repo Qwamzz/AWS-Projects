@@ -1,4 +1,4 @@
-# Deploy a Containerized Web App on AWS with ECR, ECS Fargate and an Application Load Balancer (Step by Step)
+# Deploy a Containerized Web App on AWS with ECR, ECS Fargate and an Application Load Balancer
 
 
 Containers solve the "works on my machine" problem, but you still need somewhere to run them. **Amazon ECS on AWS Fargate** runs containers without any servers to patch or scale: you describe the container, and AWS finds the capacity.

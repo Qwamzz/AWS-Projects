@@ -58,4 +58,4 @@ Roughly **$1.50/day** if left running (ALB + 2 tasks + public IPv4). Run `./clea
 
 ## Blog post
 
-A full step-by-step walkthrough is in [BLOG.md](BLOG.md).
+A full walkthrough is in [BLOG.md](BLOG.md).

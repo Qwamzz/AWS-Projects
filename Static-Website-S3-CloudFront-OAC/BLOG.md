@@ -1,4 +1,4 @@
-# Host a Secure Static Website on AWS with S3, CloudFront and Origin Access Control (Step by Step)
+# Host a Secure Static Website on AWS with S3, CloudFront and Origin Access Control
 
 
 Putting a static website on Amazon S3 takes about two minutes. The common shortcut is to turn on "static website hosting", make the bucket public, and share the S3 website URL. It works, but it leaves you with a public bucket, no HTTPS, and no caching.

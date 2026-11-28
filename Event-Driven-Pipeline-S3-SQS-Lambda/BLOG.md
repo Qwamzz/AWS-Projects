@@ -1,4 +1,4 @@
-# Build an Event-Driven File Processing Pipeline on AWS with S3, Lambda and SQS (Step by Step)
+# Build an Event-Driven File Processing Pipeline on AWS with S3, Lambda and SQS
 
 
 "When a file lands in S3, do something with it" is one of the most common serverless requirements I come across. The quickest way is to point an S3 event straight at a Lambda function, but that version has a weak spot: if processing fails, the event is retried a couple of times and then quietly gone.

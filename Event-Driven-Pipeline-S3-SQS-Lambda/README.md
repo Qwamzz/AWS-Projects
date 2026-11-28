@@ -60,4 +60,4 @@ aws s3 cp s3://$BUCKET/processed/sales.json -
 
 ## Blog post
 
-A full step-by-step walkthrough is in [BLOG.md](BLOG.md).
+A full walkthrough is in [BLOG.md](BLOG.md).
